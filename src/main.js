@@ -1,5 +1,5 @@
-import VTour from './components/VTour'
-import VStep from './components/VStep'
+import VTour from './components/VTour.vue'
+import VStep from './components/VStep.vue'
 
 const VueTour = {
   install (Vue, options) {
