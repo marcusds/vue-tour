@@ -222,23 +222,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-  body.v-tour--active {
-    pointer-events: none;
-  }
-
-  .v-tour {
-    pointer-events: auto;
-  }
-
-  .v-tour__target--highlighted {
-    box-shadow: 0 0 0 4px rgba(0,0,0,.4);
-    pointer-events: auto;
-    z-index: 9999;
-  }
-
-  .v-tour__target--relative {
-    position: relative;
-  }
-</style>
